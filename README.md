@@ -1,6 +1,8 @@
 SafeMySQL
 =========
 
+install: composer require colshrapnel/safemysql
+
 SafeMySQL is a PHP class for safe and convenient handling of MySQL queries.
 - Safe because <b>every</b> dynamic query part goes into the query via <b>placeholder</b>
 - Convenient because it makes application code short and meaningful, without useless repetitions, making it ''extra'' <abbr title="Don't Repeat Yourself">DRY</abbr>
